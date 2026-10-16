@@ -1,0 +1,91 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="280dp"
+    android:viewportWidth="400"
+    android:viewportHeight="280">
+
+    <!-- Dark Purple / Black Brick Wall Background -->
+    <path
+        android:fillColor="#0F011A"
+        android:pathData="M0,0h400v280h-400z"/>
+
+    <!-- Subtle Brick Pattern Grid -->
+    <path
+        android:strokeColor="#220436"
+        android:strokeWidth="1.2"
+        android:pathData="M0,20h400 M0,40h400 M0,60h400 M0,80h400 M0,100h400 M0,120h400 M0,140h400 M0,160h400 M0,180h400 M0,200h400 M0,220h400 M0,240h400 M0,260h400"/>
+    <path
+        android:strokeColor="#220436"
+        android:strokeWidth="1.2"
+        android:pathData="M30,0v20 M130,0v20 M230,0v20 M330,0v20 M80,20v20 M180,20v20 M280,20v20 M380,20v20 M30,40v20 M130,40v20 M230,40v20 M330,40v20 M80,60v20 M180,60v20 M280,60v20 M380,60v20 M30,80v20 M130,80v20 M230,80v20 M330,80v20 M80,100v20 M180,100v20 M280,100v20 M380,100v20 M30,120v20 M130,120v20 M230,120v20 M330,120v20 M80,140v20 M180,140v20 M280,140v20 M380,140v20 M30,160v20 M130,160v20 M230,160v20 M330,160v20"/>
+
+    <!-- Glowing Purple Circle Backdrop behind Heart -->
+    <path
+        android:fillColor="#4D0970"
+        android:pathData="M200,32 A76,76 0 1,1 199.9,32 Z"/>
+
+    <!-- Soft Purple Outer Glow Circle -->
+    <path
+        android:strokeColor="#8318B8"
+        android:strokeWidth="2"
+        android:pathData="M200,28 A80,80 0 1,1 199.9,28 Z"/>
+
+    <!-- Top Left Dots (Carousel Indicator) -->
+    <path android:fillColor="#2196F3" android:pathData="M30,22 A3,3 0 1,1 30,21.99"/>
+    <path android:fillColor="#666666" android:pathData="M42,22 A2,2 0 1,1 42,21.99"/>
+    <path android:fillColor="#666666" android:pathData="M52,22 A2,2 0 1,1 52,21.99"/>
+    <path android:fillColor="#666666" android:pathData="M62,22 A2,2 0 1,1 62,21.99"/>
+
+    <!-- Neon Wave Line Across Bottom -->
+    <path
+        android:strokeColor="#E02BFF"
+        android:strokeWidth="3"
+        android:pathData="M0,215 C100,195 120,235 200,215 C280,195 300,235 400,215"/>
+
+    <!-- Outer Neon Pink Heart Glow Tube -->
+    <path
+        android:strokeColor="#FF2BF8"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M200,72
+                          C172,48 132,70 132,105
+                          C132,138 168,162 200,182
+                          C232,162 268,138 268,105
+                          C268,70 228,48 200,72 Z"/>
+
+    <!-- Inner Neon Magenta Concentric Heart Glow -->
+    <path
+        android:strokeColor="#E02BFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M200,88
+                          C180,68 150,85 150,110
+                          C150,132 176,150 200,165
+                          C224,150 250,132 250,110
+                          C250,85 220,68 200,88 Z"/>
+
+    <!-- Inner White Core Tubes for Neon Glow -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M200,72
+                          C172,48 132,70 132,105
+                          C132,138 168,162 200,182
+                          C232,162 268,138 268,105
+                          C268,70 228,48 200,72 Z"/>
+
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M200,88
+                          C180,68 150,85 150,110
+                          C150,132 176,150 200,165
+                          C224,150 250,132 250,110
+                          C250,85 220,68 200,88 Z"/>
+</vector>
