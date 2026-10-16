@@ -1,0 +1,141 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="280dp"
+    android:viewportWidth="400"
+    android:viewportHeight="280">
+
+    <!-- Dark Purple Brick Wall Background -->
+    <path
+        android:fillColor="#130121"
+        android:pathData="M0,0h400v280h-400z"/>
+
+    <!-- Purple Light Glow Ambient on Brick Wall Center -->
+    <path
+        android:fillColor="#3B075C"
+        android:pathData="M100,20 C160,-10 240,-10 300,20 C360,50 380,110 360,170 C340,230 260,270 200,270 C140,270 60,230 40,170 C20,110 40,50 100,20 Z"/>
+
+    <!-- Intense Center Neon Backdrop Glow -->
+    <path
+        android:fillColor="#5A0D8A"
+        android:pathData="M140,50 C180,20 220,20 260,50 C290,80 290,140 260,170 C220,200 180,200 140,170 C110,140 110,80 140,50 Z"/>
+
+    <!-- Brick Wall Grid Pattern -->
+    <path
+        android:strokeColor="#2E0547"
+        android:strokeWidth="1.5"
+        android:pathData="M0,20h400 M0,40h400 M0,60h400 M0,80h400 M0,100h400 M0,120h400 M0,140h400 M0,160h400 M0,180h400 M0,200h400 M0,220h400 M0,240h400 M0,260h400"/>
+    <path
+        android:strokeColor="#2E0547"
+        android:strokeWidth="1.5"
+        android:pathData="M30,0v20 M130,0v20 M230,0v20 M330,0v20 M80,20v20 M180,20v20 M280,20v20 M380,20v20 M30,40v20 M130,40v20 M230,40v20 M330,40v20 M80,60v20 M180,60v20 M280,60v20 M380,60v20 M30,80v20 M130,80v20 M230,80v20 M330,80v20 M80,100v20 M180,100v20 M280,100v20 M380,100v20 M30,120v20 M130,120v20 M230,120v20 M330,120v20 M80,140v20 M180,140v20 M280,140v20 M380,140v20 M30,160v20 M130,160v20 M230,160v20 M330,160v20 M80,180v20 M180,180v20 M280,180v20 M380,180v20 M30,200v20 M130,200v20 M230,200v20 M330,200v20 M80,220v20 M180,220v20 M280,220v20 M380,220v20 M30,240v20 M130,240v20 M230,240v20 M330,240v20 M80,260v20 M180,260v20 M280,260v20 M380,260v20"/>
+
+    <!-- Top Left Dots (Carousel Indicator) -->
+    <path android:fillColor="#2196F3" android:pathData="M30,22 A3,3 0 1,1 30,21.99"/>
+    <path android:fillColor="#666666" android:pathData="M42,22 A2,2 0 1,1 42,21.99"/>
+    <path android:fillColor="#666666" android:pathData="M52,22 A2,2 0 1,1 52,21.99"/>
+    <path android:fillColor="#666666" android:pathData="M62,22 A2,2 0 1,1 62,21.99"/>
+
+    <!-- Bottom Left Hanging Neon Cables/Wires -->
+    <path
+        android:strokeColor="#FF00E5"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M0,212 Q20,228 40,212 Q55,232 70,212 Q90,228 110,212 Q125,232 140,212 L180,212"/>
+
+    <!-- ==================================================== -->
+    <!-- NEON BUTTERFLY LOGO (Standalone on Brick Wall)       -->
+    <!-- ==================================================== -->
+
+    <!-- Outer Deep Neon Magenta Glow Layer -->
+    <!-- Antennae -->
+    <path
+        android:strokeColor="#FF00E5"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M200,60 C190,38 175,32 162,38 M200,60 C210,38 225,32 238,38"/>
+    <!-- Upper Wings -->
+    <path
+        android:strokeColor="#FF00E5"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M200,58 C160,25 105,42 102,88 C100,122 148,130 200,112
+                          M200,58 C240,25 295,42 298,88 C300,122 252,130 200,112"/>
+    <!-- Lower Wings -->
+    <path
+        android:strokeColor="#FF00E5"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M200,118 C152,138 115,166 138,192 C162,208 186,178 200,152
+                          M200,118 C248,138 285,166 262,192 C238,208 214,178 200,152"/>
+    <!-- Inner Wing Vein Accents -->
+    <path
+        android:strokeColor="#FF00E5"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M135,70 L172,92 M135,100 L178,102
+                          M265,70 L228,92 M265,100 L222,102
+                          M155,160 L182,142
+                          M245,160 L218,142"/>
+
+    <!-- Middle Bright Neon Pink Tube Layer -->
+    <!-- Antennae -->
+    <path
+        android:strokeColor="#FF66F4"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M200,60 C190,38 175,32 162,38 M200,60 C210,38 225,32 238,38"/>
+    <!-- Antennae Dot Tips -->
+    <path android:fillColor="#FF2BF8" android:pathData="M162,38 A3,3 0 1,1 162,37.99"/>
+    <path android:fillColor="#FF2BF8" android:pathData="M238,38 A3,3 0 1,1 238,37.99"/>
+
+    <!-- Upper Wings -->
+    <path
+        android:strokeColor="#FF66F4"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M200,58 C160,25 105,42 102,88 C100,122 148,130 200,112
+                          M200,58 C240,25 295,42 298,88 C300,122 252,130 200,112"/>
+    <!-- Lower Wings -->
+    <path
+        android:strokeColor="#FF66F4"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M200,118 C152,138 115,166 138,192 C162,208 186,178 200,152
+                          M200,118 C248,138 285,166 262,192 C238,208 214,178 200,152"/>
+    <!-- Inner Wing Vein Accents -->
+    <path
+        android:strokeColor="#FF66F4"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M135,70 L172,92 M135,100 L178,102
+                          M265,70 L228,92 M265,100 L222,102
+                          M155,160 L182,142
+                          M245,160 L218,142"/>
+
+    <!-- Central Body Neon Line -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M200,52 L200,188"/>
+
+    <!-- Inner Pure White Core Tube Layer for Neon Light Effect -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M200,58 C160,25 105,42 102,88 C100,122 148,130 200,112
+                          M200,58 C240,25 295,42 298,88 C300,122 252,130 200,112
+                          M200,118 C152,138 115,166 138,192 C162,208 186,178 200,152
+                          M200,118 C248,138 285,166 262,192 C238,208 214,178 200,152
+                          M200,60 C190,38 175,32 162,38 M200,60 C210,38 225,32 238,38"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M162,38 A1.5,1.5 0 1,1 162,37.99"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M238,38 A1.5,1.5 0 1,1 238,37.99"/>
+</vector>
