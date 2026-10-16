@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tugas 5</string>
+    <string name="title_form_biodata">Form Biodata</string>
+    <string name="subtitle_form_biodata">Silahkan isi biodata Anda dibawah ini !!!</string>
+    <string name="label_nama_depan">Nama Depan</string>
+    <string name="label_nama_belakang">Nama Belakang</string>
+    <string name="label_email">Email</string>
+    <string name="label_tgl_lahir">Tgl Lahir</string>
+    <string name="label_experience">Experience</string>
+    <string name="label_pilih_skill">Pilih Skill Anda :</string>
+    <string name="skill_android">Android</string>
+    <string name="skill_uiux">UI/UX</string>
+    <string name="skill_web">Web</string>
+    <string name="btn_proceed">Proceed</string>
+    <string name="desc_header_bg">Header Background Image</string>
+    <string name="desc_calendar_icon">Calendar Icon</string>
+    <string name="desc_dropdown_icon">Dropdown Icon</string>
+
+    <string-array name="experience_options">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+    </string-array>
+</resources>
